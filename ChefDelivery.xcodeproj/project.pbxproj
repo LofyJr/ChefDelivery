@@ -29,6 +29,7 @@
 		26A0D8F72B7BA02E00FF3376 /* StoreDetailProductsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26A0D8F62B7BA02E00FF3376 /* StoreDetailProductsView.swift */; };
 		26A0D8F92B7BA19100FF3376 /* StoreDetailProductItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26A0D8F82B7BA19100FF3376 /* StoreDetailProductItemView.swift */; };
 		26A0D8FB2B7BA36B00FF3376 /* ProductDetailHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26A0D8FA2B7BA36B00FF3376 /* ProductDetailHeaderView.swift */; };
+		26A0D8FD2B7BA4B100FF3376 /* ProductDetailQuantityView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26A0D8FC2B7BA4B100FF3376 /* ProductDetailQuantityView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -55,6 +56,7 @@
 		26A0D8F62B7BA02E00FF3376 /* StoreDetailProductsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoreDetailProductsView.swift; sourceTree = "<group>"; };
 		26A0D8F82B7BA19100FF3376 /* StoreDetailProductItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoreDetailProductItemView.swift; sourceTree = "<group>"; };
 		26A0D8FA2B7BA36B00FF3376 /* ProductDetailHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductDetailHeaderView.swift; sourceTree = "<group>"; };
+		26A0D8FC2B7BA4B100FF3376 /* ProductDetailQuantityView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductDetailQuantityView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -178,6 +180,7 @@
 			children = (
 				2604BE1D2B7693C10046FF72 /* ProductDetailView.swift */,
 				26A0D8FA2B7BA36B00FF3376 /* ProductDetailHeaderView.swift */,
+				26A0D8FC2B7BA4B100FF3376 /* ProductDetailQuantityView.swift */,
 			);
 			path = ProductView;
 			sourceTree = "<group>";
@@ -269,6 +272,7 @@
 				2604BE182B7687A30046FF72 /* ProductType.swift in Sources */,
 				2604BE0B2B766E0B0046FF72 /* CarouselItemView.swift in Sources */,
 				2604BDF02B765E580046FF72 /* ContentView.swift in Sources */,
+				26A0D8FD2B7BA4B100FF3376 /* ProductDetailQuantityView.swift in Sources */,
 				2604BE1B2B76905F0046FF72 /* Double+.swift in Sources */,
 				2604BE062B7666070046FF72 /* DataSourceMock.swift in Sources */,
 				2604BE122B7680530046FF72 /* StoresContainerView.swift in Sources */,
