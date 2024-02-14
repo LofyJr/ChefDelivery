@@ -32,6 +32,7 @@
 		26A0D8FD2B7BA4B100FF3376 /* ProductDetailQuantityView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26A0D8FC2B7BA4B100FF3376 /* ProductDetailQuantityView.swift */; };
 		26A0D9002B7BC55000FF3376 /* HomeService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26A0D8FF2B7BC55000FF3376 /* HomeService.swift */; };
 		26A0D9042B7BE1BF00FF3376 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 26A0D9032B7BE1BF00FF3376 /* Alamofire */; };
+		26BE5C022B7CEDC5005DEA69 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26BE5C012B7CEDC5005DEA69 /* HomeView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -61,6 +62,7 @@
 		26A0D8FC2B7BA4B100FF3376 /* ProductDetailQuantityView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductDetailQuantityView.swift; sourceTree = "<group>"; };
 		26A0D8FF2B7BC55000FF3376 /* HomeService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeService.swift; sourceTree = "<group>"; };
 		26A0D9012B7BCD2400FF3376 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		26BE5C012B7CEDC5005DEA69 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +96,7 @@
 		2604BDEC2B765E580046FF72 /* ChefDelivery */ = {
 			isa = PBXGroup;
 			children = (
+				26BE5C002B7CEDB7005DEA69 /* HomeView */,
 				26A0D9012B7BCD2400FF3376 /* Info.plist */,
 				2604BE1C2B7693AC0046FF72 /* ProductDetailView */,
 				2604BE192B7690440046FF72 /* Extension */,
@@ -211,6 +214,14 @@
 			path = Networking;
 			sourceTree = "<group>";
 		};
+		26BE5C002B7CEDB7005DEA69 /* HomeView */ = {
+			isa = PBXGroup;
+			children = (
+				26BE5C012B7CEDC5005DEA69 /* HomeView.swift */,
+			);
+			path = HomeView;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -308,6 +319,7 @@
 				26A0D8F72B7BA02E00FF3376 /* StoreDetailProductsView.swift in Sources */,
 				2604BE0D2B766F490046FF72 /* CarouselTabView.swift in Sources */,
 				26A0D8F92B7BA19100FF3376 /* StoreDetailProductItemView.swift in Sources */,
+				26BE5C022B7CEDC5005DEA69 /* HomeView.swift in Sources */,
 				26A0D8F52B7B9FA100FF3376 /* StoreDetailHeaderView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
